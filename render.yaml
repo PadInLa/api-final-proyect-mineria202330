@@ -2,7 +2,7 @@ services:
   - type: web
     name: api-pf-mineriadedatos2023
     env: python
-    plan: starter # e.g., starter, standard, pro
+    plan: free # e.g., starter, standard, pro
     buildCommand: pip install -r requirements.txt # e.g., pip install -r requirements.txt
     startCommand: py WebFlasfk.py # e.g., flask run
     pythonVersion: 3.11.6 # e.g., 3.8
