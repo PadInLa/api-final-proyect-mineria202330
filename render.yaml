@@ -5,4 +5,7 @@ services:
     plan: free # e.g., starter, standard, pro
     buildCommand: pip install -r requirements.txt # e.g., pip install -r requirements.txt
     startCommand: py WebFlasfk.py # e.g., flask run
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.6
     region: oregon # e.g., oregon, frankfurt
